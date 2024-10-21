@@ -201,8 +201,6 @@ def update_product(inventory):
     elif new_supplier_name:
         print("Invalid supplier name! Keeping the current value.")
 
-    print("Product updated successfully.")
-
     # Displaying the before and after state of the product
     print("\n--- Product Update Summary ---")
     print("After update:", product)
